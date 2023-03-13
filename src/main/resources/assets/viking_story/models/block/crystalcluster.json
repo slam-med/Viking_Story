@@ -1,0 +1,8 @@
+{
+  "parent": "viking_story:custom/crystal_ore",
+  "textures": {
+    "all": "viking_story:blocks/crystal_ore",
+    "particle": "viking_story:blocks/crystal_ore",
+    "0": "viking_story:blocks/crystal_ore"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 34,
+  "_type": "tab",
+  "definition": {
+    "name": "Viking Story",
+    "icon": {
+      "value": "CUSTOM:Ironax"
+    },
+    "showSearch": true
+  }
+}

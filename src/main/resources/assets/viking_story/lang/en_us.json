@@ -1,1 +1,6 @@
-{}
+{
+  "itemGroup.tabviking_story": "Viking Story",
+  "item.viking_story.iron_ax": "Iron ax",
+  "block.viking_story.crystalcluster": "Crystalcluster",
+  "item.viking_story.crystal": "Crystal"
+}

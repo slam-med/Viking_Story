@@ -26,6 +26,11 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.vikingstory.init.VikingStoryModTabs;
+import net.mcreator.vikingstory.init.VikingStoryModItems;
+import net.mcreator.vikingstory.init.VikingStoryModFeatures;
+import net.mcreator.vikingstory.init.VikingStoryModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -40,8 +45,12 @@ public class VikingStoryMod {
 	private static int messageID = 0;
 
 	public VikingStoryMod() {
-
+		VikingStoryModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		VikingStoryModBlocks.REGISTRY.register(bus);
+		VikingStoryModItems.REGISTRY.register(bus);
+
+		VikingStoryModFeatures.REGISTRY.register(bus);
 
 	}
 

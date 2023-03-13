@@ -1,9 +1,63 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Crystal",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal"
+    },
+    {
+      "name": "Ironax",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_ax"
+    },
+    {
+      "name": "VikingStory",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "viking_story"
+    },
+    {
+      "name": "Craftironax",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftironax"
+    },
+    {
+      "name": "Crystalcluster",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalcluster"
+    },
+    {
+      "name": "Cryatals",
+      "type": "loottable",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cryatals"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "itemGroup.tabviking_story": "Viking Story",
+      "item.viking_story.iron_ax": "Iron ax",
+      "block.viking_story.crystalcluster": "Crystalcluster",
+      "item.viking_story.crystal": "Crystal"
+    }
   },
   "foldersRoot": {
     "name": "~",
